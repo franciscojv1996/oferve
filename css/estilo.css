@@ -1,0 +1,65 @@
+body {
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 5%;
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.slider-1,
+.slider-2,
+.slider-3,
+.slider-4 {
+  height: 100vh;
+}
+.slider-1 {
+  background-image: url(../img/);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: white;
+}
+.slider-2 {
+  background-image: url(../img/);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: white;
+}
+.slider-3 {
+  background-image: url(../img/parte3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: white;
+}
+.slider-4 {
+  background-image: url(../img/parte4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: white;
+}
+
+.cuerpo{
+  margin-left: 5%; 
+  height: 1000px"
+}

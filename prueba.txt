@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Oferve</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+  <body>
+
+  <div style="margin-left: 7%; height: 1000px">
+      <div id="section1" class="slider-1 bg-success">
+        <h1>Section 1</h1>
+        <p>
+          Try to scroll this section and look at the navigation list while
+          scrolling!
+        </p>
+      </div>
+      <div id="section2" class="slider-2 bg-warning">
+        <h1>Section 2</h1>
+        <p>
+          Try to scroll this section and look at the navigation list while
+          scrolling!
+        </p>
+      </div>
+      <div id="section3" class="slider-3 bg-secondary">
+        <h1>Section 3</h1>
+        <p>
+          Try to scroll this section and look at the navigation list while
+          scrolling!
+        </p>
+      </div>
+      <div id="section4" class="slider-4 bg-danger">
+        <h1>Section 4-1</h1>
+        <p>
+          Try to scroll this section and look at the navigation list while
+          scrolling!
+        </p>
+      </div>
+    </div>
+
+
+
+    
+    <!-- Optional JavaScript  style="height: 900px;"-->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/all.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
