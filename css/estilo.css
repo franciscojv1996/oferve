@@ -27,7 +27,7 @@ li a {
   height: 100vh;
 }
 .slider-1 {
-  background-image: url(../img/);
+  background-image: url(../img/parte1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -35,7 +35,7 @@ li a {
   background-color: white;
 }
 .slider-2 {
-  background-image: url(../img/);
+  background-image: url(../img/parte2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;

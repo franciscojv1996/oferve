@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
+  <title>Ofer</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,8 +14,11 @@
 </head>
 
 <body>
-  <?php include "php/contacto.php";
-  include "php/open.php";  ?>
+  <?php
+  include "php/contacto.php";
+  include "php/open.php";
+  include "php/nosotros.php";
+  ?>
 
   <div class="d-none d-sm-block">
     <ul class="text-center"> <br><br><br><br>
@@ -30,7 +33,10 @@
 
       </div>
       <div id="section2" class="slider-2">
-
+        <?php
+        $nostros = new nosotros;
+        $nostros->Informacion();
+        ?>
       </div>
       <div id="section3" class="slider-3">
         <?php
